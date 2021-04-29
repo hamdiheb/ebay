@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>Ebay | Clone</title>
         <link href="css/index.css" rel="stylesheet" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
     <body>
         <header>
@@ -47,8 +47,111 @@
                 </ul>
             </nav>
         </header>
+        <main>
+            <section class="container-fluid mt-3">
+                <nav class="row">
+                    <article class="col-2">
+                        <h1 class=""><a href="#"><img class="logo-main" src="img/logo.png" alt="logo" /></a></h1>
+                    </article>
+                    <article class="col-1 mt-1">
+                        <a href="#" class="text-secondary text-decoration-none shop-link">Shop by category</a>
+                    </article>
+                    <article class="col-1">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down test" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                          </svg></a>
+                    </article>
+                    <article class="col-4">
+                        <input type="text" class="search">
+                        <select class="select-option">
+                            <option>All Category </option>
+                            <option>Cars</option>
+                            <option>Men's</option>
+                            <option>Women's</option>
+                            <option>Kids</option>
+                        </select>
+                    </article>
+                    <article class="col-2">
+                        <button type="button" class="btn btn-primary search-button">Search</button>
+                    </article>
+                    <article class="col-2">
+                        <a href="#" class="advanced-item">Advanced</a>
+                    </article>
+                </nav>
+            </section>
+            <article>
+                <ul class="second-menu-list border-top pt-1 border-bottom">
+                    <li class="second-menu-item active">Home</li>
+                    <li class="second-menu-item">Saved</li>
+                    <li class="second-menu-item">Electronics</li>
+                    <li class="second-menu-item">Fashion</li>
+                    <li class="second-menu-item">Health Beauty</li>
+                    <li class="second-menu-item">home Garden</li>
+                    <li class="second-menu-item">Sports</li>
+                    <li class="second-menu-item">Collectibles and Art</li>
+                    <li class="second-menu-item">Industrial equipment</li>
+                    <li class="second-menu-item">Motors</li>
+                    <li class="second-menu-item">Deals</li>
+                    <li class="second-menu-item">Sell</li>
+                </ul>
+            </article>
+            <article>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner border-none">
+                      <div class="carousel-item active border-none">
+                        <img class="d-block w-100" src="img/s-l960.webp" alt="First slide">
+                      </div>
+                      <div class="carousel-item border-none">
+                        <img class="d-block w-100" src="img/s2.webp" alt="Second slide">
+                      </div>
+                      <div class="carousel-item border-none">
+                        <img class="d-block w-100" src="img/s-l960.webp" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev border-none" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon border-none" aria-hidden="true"></span>
+                      <span class="sr-only border-none">Previous</span>
+                    </a>
+                    <a class="carousel-control-next border-none" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon border-none" aria-hidden="true"></span>
+                      <span class="sr-only border-none">Next</span>
+                    </a>
+                  </div>
+            </article>
+            <article class="">
+                <h1 class="explore-title mt-5 ml-5">Explore Popular Categories</h1>
+                <section class="grid justify-content-center">
+                    <article>
+                    <a href="#"><img src="img/explore/s-l200.webp" alt="sneakers" /></a>
+                    <h6 class="d-flex justify-content-center">Sneakers</h6>
+                    </article>
+                    <article class="ml-1">
+                        <a href="#"><img src="img/explore/s-l200 (1).webp" alt="sneakers" /></a>
+                        <h6 class="d-flex justify-content-center">Sneakers</h6>
+                    </article>
+                    <article class="ml-1">
+                        <a href="#"><img src="img/explore/s-l200 (2).webp" alt="sneakers" /></a>
+                        <h6 class="d-flex justify-content-center">Sneakers</h6>
+                    </article>
+                    <article class="ml-1">
+                        <a href="#"><img src="img/explore/s-l200 (3).webp" alt="sneakers" /></a>
+                        <h6 class="d-flex justify-content-center">Sneakers</h6>
+                    </article class="ml-1">
+                    <article>
+                         <a href="#"><img src="img/explore/s-l200 (4).webp" alt="sneakers" /></a>
+                         <h6 class="d-flex justify-content-center">Sneakers</h6>
+                    </article>
+                    <article class="ml-1">
+                         <a href="#"><img src="img/explore/s-l200 (5).webp" alt="sneakers" /></a>
+                         <h6 class="d-flex justify-content-center">Sneakers</h6>
+                    </article>
+                </section>
+                <h1 class="explore-title mt-5 ml-5">Daily Deals -></h1>
+
+            </article>
+        </main>
     </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
