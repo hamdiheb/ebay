@@ -86,6 +86,10 @@ body {
   color: #9b9999;
 }
 
+.slideshow {
+  margin-top: -16px;
+}
+
 .search-button {
   margin-left: 145px;
   margin-top: 8px;
@@ -130,4 +134,40 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15%;
+}
+
+.button-slide {
+  margin-top: 155px;
+}
+
+.deal-title {
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 20px;
+ font-weight: bolder;
+}
+
+.explore-icon {
+  width: 90%;
+}
+
+.explore-icon:hover{
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
+}
+
+.banner-info {
+  height: 349px;
+}
+
+.banner-coupon {
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.banner-coupon:hover {
+  background-color: darkgray;
+}
+
+.grid-blocks {
+  display: flex;
 }
