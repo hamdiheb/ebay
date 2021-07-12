@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-title {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: #0654ba;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-right: 5px;
+  font-size: small;
+}

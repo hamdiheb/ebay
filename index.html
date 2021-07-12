@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ebay | Clone</title>
+        <link href="css/index.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="list-item">
+                        <p>Hi! <a href="login.html" class="item-link">Sign in</a> or <a href="#" class="item-link">register</a></p>
+                    </li>
+                    <li class="list-item">
+                        <p>Daily Deals</p>
+                    </li>
+                    <li class="list-item">
+                        <p>Help & Contact</p>  
+                    </li>
+                    <article class="second-list">
+                    <li class="list-item">
+                        <p>Ship to</p>  
+                    </li>
+                    <li class="list-item">
+                        <p>Sell</p>  
+                    </li>
+                    <li class="list-item">
+                        <p>Watchlist</p>  
+                    </li>
+                    <li class="list-item">
+                        <p>My ebay</p>  
+                    </li>
+                    <li class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell bell-img" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                          </svg>
+                    </li>
+                    <li class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart bell-img" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                          </svg>
+                    </li>
+                </article>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="container-fluid mt-3">
+                <nav class="row">
+                    <article class="col-2">
+                        <h1 class=""><a href="#"><img class="logo-main" src="img/logo.png" alt="logo" /></a></h1>
+                    </article>
+                    <article class="col-1 mt-1">
+                        <a href="#" class="text-secondary text-decoration-none shop-link">Shop by category</a>
+                    </article>
+                    <article class="col-1">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down test" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                          </svg></a>
+                    </article>
+                    <article class="col-4">
+                        <input type="text" class="search">
+                        <select class="select-option">
+                            <option>All Category </option>
+                            <option>Cars</option>
+                            <option>Men's</option>
+                            <option>Women's</option>
+                            <option>Kids</option>
+                        </select>
+                    </article>
+                    <article class="col-2">
+                        <button type="button" class="btn btn-primary search-button">Search</button>
+                    </article>
+                    <article class="col-2">
+                        <a href="#" class="advanced-item">Advanced</a>
+                    </article>
+                </nav>
+            </section>
+            <article>
+                <ul class="second-menu-list border-top pt-1 border-bottom">
+                    <li class="second-menu-item active">Home</li>
+                    <li class="second-menu-item">Saved</li>
+                    <li class="second-menu-item">Electronics</li>
+                    <li class="second-menu-item">Fashion</li>
+                    <li class="second-menu-item">Health Beauty</li>
+                    <li class="second-menu-item">home Garden</li>
+                    <li class="second-menu-item">Sports</li>
+                    <li class="second-menu-item">Collectibles and Art</li>
+                    <li class="second-menu-item">Industrial equipment</li>
+                    <li class="second-menu-item">Motors</li>
+                    <li class="second-menu-item">Deals</li>
+                    <li class="second-menu-item">Sell</li>
+                </ul>
+            </article>
+            <article class="slideshow">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-75 float-right" src="img/s-l960.webp" alt="First slide">
+                        <div class="pl-3 pt-4 w-25 bg-danger banner-info">
+                            <h1 class="text-white">You Deserve a Deal</h1>
+                            <p class="text-white">Save 10% on selected items in Fashion, Tech
+                                and Home Garden
+                            </p>
+                            <a class="banner-coupon text-white">Coupon Code: RXGBH10</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-75 float-right" src="img/s2.webp" alt="Second slide">
+                        <div class="pl-3 pt-4 w-25 bg-warning banner-info">
+                            <h1 class="text-white">You Deserve a Deal</h1>
+                            <p class="text-white">Save 10% on selected items in Fashion, Tech
+                                and Home Garden
+                            </p>
+                            <a class="banner-coupon text-white">Coupon Code: RXGBH10</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-75 float-right" src="img/s2.webp" alt="Third slide">
+                        <div class="pl-3 pt-4 w-25 bg-warning banner-info">
+                            <h1 class="text-white">You Deserve a Deal</h1>
+                            <p class="text-white">Save 10% on selected items in Fashion, Tech
+                                and Home Garden
+                            </p>
+                            <a class="banner-coupon text-white">Coupon Code: RXGBH10</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </article>
+            <article class="">
+                <h1 class="explore-title mt-5 ml-5"><a href="#" class="text-dark">Explore Popular Categories</a></h1>
+                <section class="grid justify-content-center">
+                    <article>
+                    <a href="#"><img src="img/explore/s-l200.webp" alt="sneakers" class="explore-icon" /></a>
+                    <h6 class="d-flex justify-content-center mr-4">Sneakers</h6>
+                    </article>
+                    <article class="ml-1">
+                        <a href="#"><img src="img/explore/s-l200.webp" alt="sneakers" class="explore-icon" /></a>
+                        <h6 class="d-flex justify-content-center">Korean beauty</h6>
+                    </article>
+                    <article class="ml-1">
+                        <a href="#"><img src="img/explore/s-l200.webp" alt="sneakers" class="explore-icon" /></a>
+                        <h6 class="d-flex justify-content-center">Wristwatches</h6>
+                    </article>
+                    <article class="ml-1">
+                        <a href="#"><img src="img/explore/s-l200.webp" alt="sneakers" class="explore-icon" /></a>
+                        <h6 class="d-flex justify-content-center">Fishing</h6>
+                    </article class="ml-1">
+                    <article>
+                         <a href="#"><img src="img/explore/s-l200.webp" alt="sneakers" class="explore-icon" /></a>
+                         <h6 class="d-flex justify-content-center">Collectibles</h6>
+                    </article>
+                    <article class="ml-1">
+                         <a href="#"><img src="img/explore/s-l200.webp" alt="sneakers" class="explore-icon"/></a>
+                         <h6 class="d-flex justify-content-center">Smartphones</h6>
+                    </article>
+                </section>
+                <h1 class="explore-title mt-5 ml-5">Daily Deals</h1>
+                <section class="grid-blocks">
+                    <article class="ml-5 grid-block-item">
+                        <img src="/img/blocks/s-l960.webp" class="" alt="block-img" />
+                        <h6 class="font-weight-bold mt-2">$144.95</h6>
+                    </article>
+                    <article class="ml-3 grid-block-item">
+                        <img src="/img/blocks/s-l225.webp" class="" alt="block-img" />
+                        <h6 class="font-weight-bold mt-2">$144.95</h6>
+                    </article>
+                    <article class="ml-3 grid-block-item">
+                        <img src="/img/blocks/s-l2251.webp" alt="block-img" />
+                        <h6 class="font-weight-bold mt-2">$144.95</h6>
+                    </article>
+                    <article class="ml-3 grid-block-item">
+                        <img src="/img/blocks/s-l222.webp" class="" alt="block-img" />
+                        <h6 class="font-weight-bold mt-2">$144.95</h6>
+                    </article>
+                        <article class="ml-3 grid-block-item">
+                        <img src="/img/blocks/s-l2252.webp" class="" alt="block-img" />
+                        <h6 class="font-weight-bold mt-2">$144.95</h6>
+                    </article>
+                </section>
+                <section>
+                    <article class="footer-banner">
+                        <h1 class="footer-banner-title">A message to our community about COVID-19</h1>
+                        <p>Learn what we're doing to navigate this unprescedented situation</p>
+                    </article>
+                </section>
+            </article>
+        </main>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
