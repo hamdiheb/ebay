@@ -171,3 +171,13 @@ body {
 .grid-blocks {
   display: flex;
 }
+
+.footer-banner {
+  width: 90%;
+  background-color: #01718f;
+  color: wheat;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
